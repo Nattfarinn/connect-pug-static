@@ -1,0 +1,36 @@
+{
+  "name": "connect-pug-static",
+  "version": "0.1.0",
+  "description": "Connect (ExpressJS) middleware for serving html files from Pug (former Jade) template",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec --recursive --compilers coffee:coffee-script/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Nattfarinn/connect-pug-static.git"
+  },
+  "keywords": [
+    "connect",
+    "pug",
+    "html",
+    "static",
+    "middleware",
+    "express",
+    "expressjs",
+    "compile"
+  ],
+  "dependencies": {
+    "pug": "^2.0.0-alpha",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": ">=1.12.0",
+    "coffee-script": "^1.10.0"
+  },
+  "author": "Slawomir Uchto <nattfarinn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nattfarinn/connect-pug-static/issues"
+  }
+}
